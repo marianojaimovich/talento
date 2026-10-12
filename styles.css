@@ -13,12 +13,9 @@ box-sizing:  border-box;
 font-family: "DM Sans" , sans-serif; 
 }
 
-.menu {
-    position:fixed;
-}
 
 .banner {
-    display:flex;
+    display: flex;
     flex-direction: column;
     width:100%;/*contenedor*/
     height:40vh;
@@ -29,7 +26,7 @@ font-family: "DM Sans" , sans-serif;
     justify-content: center;
     text-align: center;
     align-items: center;
-    line-height: 1.6; /*distancia entre renglores*/
+    line-height: 1.2; /*distancia entre renglores*/
     
 }
 
@@ -43,7 +40,7 @@ font-family: "DM Sans" , sans-serif;
 .dm-sans-letras {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
     /*fontface si me la descargo*/
 }
@@ -52,15 +49,14 @@ font-family: "DM Sans" , sans-serif;
 .banner h2 {
     -webkit-text-stroke: 2px black;
     font-size: 3rem;
-      color:rgb(244, 1, 9);
+    color:rgb(244, 1, 9);
 }
 
 .banner button {    
     background-color:rgb(228, 214, 214);
     border-radius: 8px;
     padding:5px;
-    width: 70px;
-    height: 50px;
+    
 }
 
  .banner span{
